@@ -30,4 +30,13 @@ Follow these steps to get your development environment set up:
 git clone https://github.com/yourusername/yourrepository.git
 cd yourrepository
 
+### 2. Install Dependencies
+
+Install the project dependencies using Composer:
+
+```bash
+composer install
+
+
+
 
