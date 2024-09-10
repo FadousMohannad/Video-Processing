@@ -29,14 +29,43 @@ Follow these steps to get your development environment set up:
 ```bash
 git clone https://github.com/yourusername/yourrepository.git
 cd yourrepository
+```
 
 ### 2. Install Dependencies
 
 Install the project dependencies using Composer:
-
 ```
 composer install
+```
 
+### 3. Set Up the Environment
+
+Copy the .env.example file to create your .env file:
+
+```
+cp .env.example .env
+```
+
+### 4. Run Migrations
+
+```
+php artisan migrate
+```
+
+### 5. Start the Queue Worker
+
+```
+php artisan queue:work
+```
+
+## Configuration
+
+API keys to your .env file. Example configuration:
+
+```
+VIDEO_TRANSCRIPTION_API_KEY=your_transcription_api_key
+VIDEO_SUMMARIZATION_API_KEY=your_summarization_api_key
+```
 
 
 
