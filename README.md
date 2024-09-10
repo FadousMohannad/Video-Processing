@@ -34,7 +34,7 @@ cd yourrepository
 
 Install the project dependencies using Composer:
 
-```bash
+```
 composer install
 
 
