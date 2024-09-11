@@ -64,6 +64,7 @@ API keys to your .env file. Example configuration:
 ```
 DEEPGRAM_API_KEY="c72583687fb7f4e407a4dcb67d79ddf0a03347e7"
 OPENAI_API_KEY="sk-Nr7wKnqGjqfOvr55GLPOHKZGsc99uNxx4TlqdVH2Q0T3BlbkFJ4POc4weKVu6qIsRkW7BMFOjVX11kAEG3hyzmrCtFIA"
+QUEUE_CONNECTION=database
 ```
 
 
